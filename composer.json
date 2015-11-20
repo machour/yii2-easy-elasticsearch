@@ -1,0 +1,23 @@
+{
+	"name": "machour/yii2-easy-elasticsearch",
+	"description": "Quick n Dirty elasticsearch implementation to index and search ActiveRecords",
+	"keywords": ["yii", "elasticsearch"],
+	"type": "yii2-extension",
+	"support": {
+		"source": "https://github.com/machour/yii2-easy-elasticsearch"
+	},
+	"authors": [
+		{
+			"name": "Mehdi Achour",
+			"email": "machour@gmail.com"
+		}
+	],
+	"require": {
+		"yiisoft/yii2": "*"
+	},
+    "autoload": {
+        "psr-4": {
+            "machour\\yii2\\elasticsearch\\": ""
+        }
+    }
+}
